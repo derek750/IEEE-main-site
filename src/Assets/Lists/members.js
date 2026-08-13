@@ -135,7 +135,7 @@ const memberData = {
             ],
             firstRowSize: 2,
         },
-        Graphics: {
+        "Graphics & Multimedia": {
             membersList: [
                 {
                     fullName: "Norah Liu",
@@ -157,11 +157,6 @@ const memberData = {
                     position: "Graphics Associate",
                     emailLink: "",
                 },
-            ],
-            firstRowSize: 2,
-        },
-        Multimedia: {
-            membersList: [
                 {
                     fullName: "Harshpreet Singh",
                     position: "Multimedia Associate",
