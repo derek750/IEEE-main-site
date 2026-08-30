@@ -179,16 +179,16 @@ const memberData = {
             ],
             firstRowSize: 2,
         },
-        "Academic Outreach": {
+        "Academic Engagement": {
             membersList: [
                 {
                     fullName: "Michelle Lu",
-                    position: "Academic Outreach Director",
+                    position: "Academic Engagement Director",
                     emailLink: "michelleyf.lu@mail.utoronto.ca",
                 },
                 {
                     fullName: "Nabeth Ghazi",
-                    position: "Academic Outreach Director",
+                    position: "Academic Engagement Director",
                     emailLink: "n.ghazi@mail.utoronto.ca",
                 },
                 {
