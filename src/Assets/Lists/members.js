@@ -1,4 +1,251 @@
 const memberData = {
+    "2026-2027": {
+        Logistics: {
+            membersList: [
+                {
+                    fullName: "Jessie Yin",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Arthika Sivakumaran",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Nameera Ahmed",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Eileen Yang",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Katelyn Wong",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Nicole Rosadi",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Naseem Parpia",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Salma Ramzaan",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Abdelrahman Elshrief",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Joshua Min",
+                    position: "Associate",
+                    emailLink: "",
+                },
+            ],
+            firstRowSize: 3,
+        },
+        "External Relations": {
+            membersList: [
+                {
+                    fullName: "Masa Chau",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Anisa Hosseinpour Khoshghalb",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Hajrah Siddiqui",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Siddharth Shroff",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Sylvia Wang",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Joshua Zhang",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Dilara Esenceli",
+                    position: "Associate",
+                    emailLink: "",
+                },
+            ],
+            firstRowSize: 3,
+        },
+        Webmasters: {
+            membersList: [
+                {
+                    fullName: "Georgia Wu",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Sansita Malhotra",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Derek Lau",
+                    position: "Associate",
+                    emailLink: "",
+                },
+            ],
+            firstRowSize: 2,
+        },
+        "Academic Outreach": {
+            membersList: [
+                {
+                    fullName: "Iain Dimech",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Daphne Zhu",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Gustavo Nakashita",
+                    position: "Associate",
+                    emailLink: "",
+                },
+            ],
+            firstRowSize: 2,
+        },
+        "Graphics & Multimedia": {
+            membersList: [
+                {
+                    fullName: "Norah Liu",
+                    position: "Graphics Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Alice Chen",
+                    position: "Graphics Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Hieu Nguyen",
+                    position: "Graphics Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Arleen Walia",
+                    position: "Graphics Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Harshpreet Singh",
+                    position: "Multimedia Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Yashvi Shah",
+                    position: "Multimedia Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Hanbang (Leo) Wu",
+                    position: "Multimedia Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Brandon Yang",
+                    position: "Multimedia Associate",
+                    emailLink: "",
+                },
+            ],
+            firstRowSize: 2,
+        },
+        "Tech Team": {
+            membersList: [
+                {
+                    fullName: "Anni Deng",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Afrah Iqbal",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Sujay Golla",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Andrew Tan",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Zahra Shahhaidari",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Jim Wang",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Ema Mylvaganam",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "MP",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Katherine Zhang",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Ishraq Alam",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Athavan Balakumar",
+                    position: "Associate",
+                    emailLink: "",
+                },
+                {
+                    fullName: "Vedant Harlalka",
+                    position: "Associate",
+                    emailLink: "",
+                },
+            ],
+            firstRowSize: 3,
+        },
+    },
     "2025-2026": {
         Chairs: {
             membersList: [

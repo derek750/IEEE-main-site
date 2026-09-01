@@ -11,8 +11,9 @@ import dog from "./../../Assets/Images/misc/dog.svg";
 import Switch from "react-switch";
 
 const Team = () => {
-    const [year, setYear] = useState(Object.keys(memberData)[0]);
-    const [teamKey, setTeamKey] = useState("Chairs");
+    const defaultYear = Object.keys(memberData)[0];
+    const [year, setYear] = useState(defaultYear);
+    const [teamKey, setTeamKey] = useState(Object.keys(memberData[defaultYear])[0]);
     const [active, setActive] = useState(0);
     const [checkedBaby, setCheckedBaby] = useState(false);
     const [checkedDog, setCheckedDog] = useState(false);
@@ -124,9 +125,11 @@ const Team = () => {
     }
 
     function ChangeYear(event) {
-        const year = parseInt(event.target.value.substring(0, 4), 10);
-        setTeamKey(year >= 2024 ? "Chairs" : "Exec Team");
-        setYear(event.target.value);
+        const selectedYear = event.target.value;
+        setYear(selectedYear);
+        if (selectedYear !== "past" && memberData[selectedYear]) {
+            setTeamKey(Object.keys(memberData[selectedYear])[0]);
+        }
         setActive(0);
         setCheckedBaby(false);
         setCheckedDog(false);
