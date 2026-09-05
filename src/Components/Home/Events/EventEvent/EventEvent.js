@@ -1,13 +1,17 @@
 import React from "react";
 import styles from "./eventEvent.module.scss";
 
-const EventContent = ({ name, date }) => {
+const EventContent = ({ name, date, image }) => {
     let imgSrc;
     try {
-        imgSrc = require("./../../../../Assets/Images/events/" + name + ".jpg");
+        imgSrc = require("./../../../../Assets/Images/events/" + image + ".jpg");
     } catch (err) {
-        imgSrc = require("./../../../../Assets/Images/events/Workshops.jpg");
-    }
+        try {
+            imgSrc = require("./../../../../Assets/Images/events/" + image + ".png");
+        } catch (err2) {
+            imgSrc = require("./../../../../Assets/Images/events/Workshops.jpg");
+        }
+}
 
     return (
         <>
@@ -24,14 +28,14 @@ const EventContent = ({ name, date }) => {
     );
 };
 
-const EventEvent = ({ link, EventName, EventDate, spread = false }) => (
+const EventEvent = ({ link, EventName, EventImage, EventDate, spread = false }) => (
     <>
         {link === undefined && (
             <div
                 className={`${styles.event} ${spread && styles.spread}`}
                 style={{ cursor: "default" }}
             >
-                <EventContent name={EventName} date={EventDate} />
+                <EventContent name={EventName} image={EventImage} date={EventDate} />
             </div>
         )}
 
@@ -44,7 +48,7 @@ const EventEvent = ({ link, EventName, EventDate, spread = false }) => (
                     spread && styles.spread
                 }`}
             >
-                <EventContent name={EventName} date={EventDate} />
+                <EventContent name={EventName} image={EventImage} date={EventDate} />
             </a>
         )}
     </>
